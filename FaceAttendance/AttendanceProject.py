@@ -65,7 +65,7 @@ while True:
 
     for encodeFace, faceLoc in zip(encodesCurFrame, facesCurFrame):
         # face_distance simply gives the difference between the known_face_encodings & face_encoding_to_check
-        # compare_faces gives a difference list of face_distance <= tolerance
+        # compare_faces gives True/False values indicating which known_face_encodings match the face encoding to check
         matches = face_recognition.compare_faces(encodeList, encodeFace)
         faceDis = face_recognition.face_distance(encodeList, encodeFace)
         # print(faceDis)
@@ -74,6 +74,8 @@ while True:
 
         if matches[matchIndex]:
             name = attendeeNames[matchIndex].upper()
+            if faceDis[matchIndex] > 0.55:
+                name = "Unknown"
             # print(name)
             list1 = []
             # as we have resized the image before, now to change it in it's original form
