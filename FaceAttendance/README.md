@@ -18,3 +18,11 @@ Last we store the attendace in a csv file if want can connect it with database l
 <b>Face_encoding (128 unique measurnment of image)</b>
 
 ![](SS_Measurements.jpg)
+
+<hr>
+<b>Reference</b><br>
+Special Thanks to-<br>
+1) https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78<br>
+2) https://www.youtube.com/channel/UCYUjYU5FveRAscQ8V21w81A
+
+
