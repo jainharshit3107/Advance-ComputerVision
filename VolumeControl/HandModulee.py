@@ -30,7 +30,8 @@ class Handdect():
                 cx, cy = int(lm.x*w), int(lm.y*h)
                 lmList.append([id, cx, cy])
                 if draw:
-                    cv2.circle(img, (cx, cy), 15, (255, 0, 255), cv2.FILLED)
+                    # Draw circle on hand landmarks
+                    cv2.circle(img, (cx, cy), 10, (0, 255, 0), cv2.FILLED)
 
         return lmList
 def main():
