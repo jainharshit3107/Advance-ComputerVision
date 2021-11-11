@@ -1,4 +1,8 @@
 ## Volume control via fingertips
+<p align="center">
+  <img width="600" height="300" src="https://github.com/jainharshit3107/Advance-ComputerVision/blob/master/VolumeControl/Sample_VolumeC.gif">
+</p>
+
 Initial steps & libraries used :
 
     install pycaw(pip3 install pycaw)
