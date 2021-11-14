@@ -1,6 +1,6 @@
 # Advance-ComputerVision
 ## 📌 Introduction
-This repository contains different projects and py-modules made with help of CV2 and google mediapipe library, made some cool stuffs using python to know more about them just click on the link below. 
+This repository contains different projects and py-modules made with help of <a href="https://opencv.org/">OpenCV</a> and google  <a href="https://mediapipe.dev/">Mediapipe</a> library, made some cool stuffs using python to know more about them just click on the link below. 
 
 
 ## Projects Completed
